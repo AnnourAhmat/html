@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: aqua;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+#accueil{
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: 
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+        url("https://images.unsplash.com/photo-1555396273-367ea4eb4db5") center/cover no-repeat;
+        color: whitesmoke;
+}
+/* s */
+#accueil button{
+    background-color: rgb(14, 7, 55);
+    color: aquamarine;
+    padding: 12 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+h1{
+    text-align: center;
+}
+
+/* si  on a un class */
+.paragraphe{
+    display: flex;
+    justify-content: center;
+
+}
+
+/* style de menu */
+img{
+    width: 400px;
+    height: 400px;
+}
+
+/* style du tableau */
+#contact form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max: width 400px;
+    margin: 0 auto;
+} 
